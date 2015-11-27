@@ -13,6 +13,8 @@
     <% end %>
  <div class="col-sm-1">名前：</div>
         <%= f.text_field :name, placeholder: "田中太郎", class: "col-sm-11" %>
+ <div class="col-sm-1">年齢：</div>
+        <%= f.text_field :age, placeholder: "20", class: "col-sm-11" %>
     <div class="col-sm-1", style="margin-top: 5px">内容：</div>
     <%= f.text_area :body, class: "col-sm-11 input-sm", style: "margin-top: 5px",  placeholder: "投稿内容を入力してください", rows: "10" %>
 
